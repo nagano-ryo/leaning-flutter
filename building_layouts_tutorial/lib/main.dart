@@ -82,7 +82,7 @@ class MyApp extends StatelessWidget {
         // body: const Center(
         //   child: Text('Hello World'),
         // ),
-        body: Column(
+        body: ListView(
           children: [
             Image.asset(
               'images/lake.jpg',
